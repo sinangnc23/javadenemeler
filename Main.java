@@ -5,7 +5,7 @@ public class Main {
 
         Scanner fiyat = new Scanner(System.in);
         while (true){
-        System.out.println("ürün fiyatı giriniz");
+        System.out.println("ürün fiyatı giriniz.");
         double urunFiyat = fiyat.nextDouble();
 
         if (urunFiyat <= 1000.0 && urunFiyat > 0) {
